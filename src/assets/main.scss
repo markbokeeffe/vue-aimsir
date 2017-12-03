@@ -1,0 +1,18 @@
+.forcastContainer{
+  display:flex;
+  width:100%;
+  float:left;
+  flex-wrap:wrap;
+  justify-content:space-between;
+
+  div{
+    height:200px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    border-radius:20px;
+    width:19%;
+    margin-bottom:20px;
+    box-shadow: 2px 2px 5px #888888;
+  }
+}
